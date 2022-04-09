@@ -1,3 +1,5 @@
+
+def call() {
 // string(defaultValue: "TEST", description: 'What environment?', name: 'userFlag')
 // choice(choices: ['TESTING', 'STAGING', 'PRODUCTION'], description: 'Select field for target environment', name: 'DEPLOY_ENV')
 properties([
@@ -28,4 +30,5 @@ pipeline {
             }
         }
     }
+}
 }
